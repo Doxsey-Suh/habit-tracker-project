@@ -10,7 +10,7 @@ curl "${API}${URL_PATH}" \
   --data '{
     "habit":{
       "name": "'"${NAME}"'",
-      "achieve": "'"${ACHIEVE}"'"
+      "target": "'"${TARGET}"'"
     }
   }'
 

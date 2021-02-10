@@ -5,8 +5,8 @@ const habitSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  achieve: {
-    type: Boolean,
+  target: {
+    type: Number,
     required: true
   },
   owner: {
