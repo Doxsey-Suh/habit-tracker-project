@@ -43,7 +43,7 @@ router.get('/habits/:id', requireToken, (req, res, next) => {
 
 // CREATE 
 router.post('/habits', requireToken, (req, res, next) => {
-  // ?? not fully understand -- study... 
+  // ?? not fully understand -- study... git checkout kevin
   req.body.habit.owner = req.user.id
 
   Habit.create(req.body.habit)
